@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "GFT Application">
+	<test name="Demo Group">
+		<groups>
+			<define name="all">
+				<include name="smoke"></include>
+				<include name="login"></include>
+			</define>
+			<define name="dsmoke">
+				<include name="smoke"></include>
+			</define>
+			
+			<run>
+				<include name="all"></include>
+				<include name="dsmoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testClasses.TestNG_Grouping"></class>
+		</classes>
+	</test>
+	
+
+</suite>

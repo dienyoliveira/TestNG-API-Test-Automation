@@ -2,24 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34" started-at="2020-06-03T09:00:13 BRT" finished-at="2020-06-03T09:00:13 BRT">
+  <suite name="Default suite" duration-ms="164" started-at="2020-06-17T08:48:04 BRT" finished-at="2020-06-17T08:48:04 BRT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34" started-at="2020-06-03T09:00:13 BRT" finished-at="2020-06-03T09:00:13 BRT">
-      <class name="testClasses.TestNG_Asserts">
-        <test-method status="PASS" signature="testDieny()[pri:0, instance:testClasses.TestNG_Asserts@1d16f93d]" name="testDieny" duration-ms="5" started-at="2020-06-03T09:00:13 BRT" finished-at="2020-06-03T09:00:13 BRT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDieny -->
-        <test-method status="PASS" signature="testMethod1()[pri:0, instance:testClasses.TestNG_Asserts@1d16f93d]" name="testMethod1" duration-ms="2" started-at="2020-06-03T09:00:13 BRT" finished-at="2020-06-03T09:00:13 BRT">
+    <test name="Default test" duration-ms="164" started-at="2020-06-17T08:48:04 BRT" finished-at="2020-06-17T08:48:04 BRT">
+      <class name="testClasses.TestNG_DataProviders">
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testClasses.TestNG_DataProviders@65e2dbf3]" name="testMethod1" duration-ms="7" started-at="2020-06-17T08:48:04 BRT" data-provider="input" finished-at="2020-06-17T08:48:04 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[p1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="testMethod2()[pri:0, instance:testClasses.TestNG_Asserts@1d16f93d]" name="testMethod2" duration-ms="1" started-at="2020-06-03T09:00:13 BRT" finished-at="2020-06-03T09:00:13 BRT">
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testClasses.TestNG_DataProviders@65e2dbf3]" name="testMethod1" duration-ms="1" started-at="2020-06-17T08:48:04 BRT" data-provider="input" finished-at="2020-06-17T08:48:04 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[m1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod2 -->
-      </class> <!-- testClasses.TestNG_Asserts -->
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testClasses.TestNG_DataProviders@65e2dbf3]" name="testMethod1" duration-ms="0" started-at="2020-06-17T08:48:04 BRT" data-provider="input" finished-at="2020-06-17T08:48:04 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[r1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[r2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- testClasses.TestNG_DataProviders -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

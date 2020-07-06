@@ -1,0 +1,8 @@
+<suite name="GFT Application">
+	<test name ="Regression Suite">
+		<classes>
+			<class name="regression.TestNG_TestClass1"></class>
+			<class name="regression.TestNG_TestClass2"></class>
+		</classes>
+	</test>
+</suite>
